@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     1. ISBN Number
+ Description: An ISBN (International Standard Book Number) is a unique 10-digit 
+number assigned to books. The ISBN is valid if the sum of its digits, each 
+multiplied by its position (1 to 10), is divisible by 11.
+ Example
+ Input: 020131452
+ Output: Invalid ISB
+ Explanation: The sum of the digits multiplied by their positions is not 
+divisible by 11
+ Input: 0471958697
+ Output: Valid ISBN
+ Explanation: (0×1 + 4×2 + 7×3 + … + 7×10) is divisible by 11.
+ Hint: Use a loop to multiply each digit by its respective position and check 
+divisibility by 11
+<script src="script.js"></script>
+</body>
+</html>
