@@ -6,7 +6,7 @@
  Output: 2, 3, 5
  Hint: Use division method
  */
-let num=18;
+let num=Number(prompt("enter any number"));
 for(let i=2;i<=num;i++){
     while(num%i==0){
         console.log(i);
